@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleL132_A104" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.DAC.L132A104</value>
+  </data>
+  <data name="ModuleL132_A180" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.ADC.L132A180</value>
+  </data>
+  <data name="ModuleL132_DIO" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.IO.L132DIO</value>
+  </data>
+  <data name="ModuleL132_M1X1" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.Motion.L132M1X1</value>
+  </data>
+  <data name="ParameterL132_A104" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.DAC.ParameterL132A104</value>
+  </data>
+  <data name="ParameterL132_A180" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.ADC.ParameterL132A180</value>
+  </data>
+  <data name="ParameterL132_DIO" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.IO.ParameterL132DIO</value>
+  </data>
+  <data name="ParameterL132_M1X1" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.Motion.ParameterL132M1X1</value>
+  </data>
+  <data name="ModuleM314" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.M314.M314</value>
+  </data>
+  <data name="ParameterM314" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.M314.ParameterM314</value>
+  </data>
+  <data name="ModuleL122_A104" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.DAC.L122A104</value>
+  </data>
+  <data name="ModuleL122_A180" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.ADC.L122A180</value>
+  </data>
+  <data name="ModuleL122_DIO" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.IO.L122DIO</value>
+  </data>
+  <data name="ModuleL122_M1X1" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.L122M1X1</value>
+  </data>
+  <data name="ParameterL122_A104" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.DAC.ParameterL122A104</value>
+  </data>
+  <data name="ParameterL122_A180" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.ADC.ParameterL122A180</value>
+  </data>
+  <data name="ParameterL122_DIO" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.IO.ParameterL122DIO</value>
+  </data>
+  <data name="ParameterL122_M1X1" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.ParameterL122M1X1</value>
+  </data>
+  <data name="ModuleL122_M2X4" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.L122M2X4</value>
+  </data>
+  <data name="ParameterL122_M2X4" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.ParameterL122M2X4</value>
+  </data>
+  <data name="ParameterSerial" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Ports.ParameterSerial</value>
+  </data>
+  <data name="ModuleOPT_DPA6024" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Light.OPT.DPA6024</value>
+  </data>
+  <data name="ModuleCCS_PD3_10024" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Light.CCS.PD3</value>
+  </data>
+  <data name="ModuleCCS_PD3_5024" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Light.CCS.PD3</value>
+  </data>
+  <data name="ModuleCEtherCATDI6022" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.IO.CEtherCATDI6022</value>
+  </data>
+  <data name="ParameterCEtherCATDI6022" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.IO.ParameterCEtherCATDI6022</value>
+  </data>
+  <data name="ModuleCEtherCATDO7062" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.IO.CEtherCATDO7062</value>
+  </data>
+  <data name="ParameterCEtherCATDO7062" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.IO.ParameterCEtherCATDO7062</value>
+  </data>
+  <data name="ModuleCEtherCATMotion" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.Motion.CEtherCATMotion</value>
+  </data>
+  <data name="ParameterCEtherCATMotion" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.Motion.ParameterCEtherCATMotion</value>
+  </data>
+  <data name="ModuleOPT_DP1024F" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Light.OPT.DP1024F</value>
+  </data>
+  <data name="ModuleOPT_DPA6024B" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Light.OPT.DPA6024B</value>
+  </data>
+  <data name="ModuleProPhotonix_CobraSlim" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Light.ProPhotonix.CobraSlim</value>
+  </data>
+  <data name="ParameterSocket" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Ports.ParameterSocket</value>
+  </data>
+  <data name="ModuleCEtherCATADC8124" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.ADC.CEtherCATADC8124</value>
+  </data>
+  <data name="ParameterCEtherCATADC8124" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.ADC.ParameterCEtherCATADC8124</value>
+  </data>
+  <data name="ModuleCEtherCATDAC9144" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.DAC.CEtherCATDAC9144</value>
+  </data>
+  <data name="ParameterCEtherCATDAC9144" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.DAC.ParameterCEtherCATDAC9144</value>
+  </data>
+  <data name="ModulePN100BI" xml:space="preserve">
+    <value>AOISystem.Utilities.Modules.PN.PN100BI</value>
+  </data>
+</root>

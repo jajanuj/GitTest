@@ -1,0 +1,156 @@
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\bin\Debug\AOISystem.Utilities.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\bin\Debug\AOISystem.Utilities.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\bin\Debug\zh-TW\AOISystem.Utilities.resources.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.csprojResolveAssemblyReference.cache
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Account.AccountEditorForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Account.LogInForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Account.LogOutForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.BarcodeScanner.BarcodeText.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.DirectoryTreeView.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.DirectoryTreeViewEx.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.ImageToBase64StringForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.IOSwitchInput.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.IOSwitchOutput.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.ItemListSortingForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\ChartTools.LineProfileChart.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.NeroBar.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.NumpadForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.PropertyGridForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.SlideButton.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.ParameterXMLForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.SplashScreenForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Light.Common.LightChannelControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Light.Common.LightChannelRenameForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Light.Common.LightControllerForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.ParameterSocketSettingForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.SerialModulesMonitorForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.ParameterINIForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.NumericUpDownSlider.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.ParameterSerialSettingForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Logging.MessageNotificationForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Logging.HLogger.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.MasterCard.EtherCATInitializationForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.ADC.CEtherCATADC8124Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.DAC.CEtherCATDAC9144Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.IO.CEtherCATDI6022Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.IO.CEtherCATDO7062Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.Motion.CEtherCATMotionSlimForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.Motion.CEtherCATMotionForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.ADC.L122A180Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.DAC.L122A104Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.IO.L122DIOForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.L122M1X1Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.L122M2X4Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.L122M2X4SlimForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.ADC.L132A180ADCForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.DAC.L132A104DACForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.IO.L132DIOForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.Motion.L132M1X1Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.M314.M314Form.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.M314.M314SlimForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeBooleanControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeEditorControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeEnumControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeListSelectForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeLongTextControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipePathControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeTextControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeNumericUpDownControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeListControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.DataRecordControl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.SafeDoorCtl.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Properties.Resources.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.CopyRecipeForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.EditorRecipeForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeEditorForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Resources.Library.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Flow.FlowMonitorForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Resources.Language.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Threading.frmTaskMonitor.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Account.LogInForm.zh-TW.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeEditorControl.zh-TW.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.SafeDoorCtl.zh-TW.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Resources.Language.zh-TW.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.csproj.GenerateResource.Cache
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\zh-TW\AOISystem.Utilities.resources.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.pdb
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.csprojResolveAssemblyReference.cache
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Account.AccountEditorForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Account.LogInForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Account.LogOutForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.BarcodeScanner.BarcodeText.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.DirectoryTreeView.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.DirectoryTreeViewEx.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.ImageToBase64StringForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.IOSwitchInput.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.IOSwitchOutput.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.ItemListSortingForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\ChartTools.LineProfileChart.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.NeroBar.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.NumpadForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.PropertyGridForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.SlideButton.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.ParameterXMLForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.SplashScreenForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Light.Common.LightChannelControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Light.Common.LightChannelRenameForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Light.Common.LightControllerForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.ParameterSocketSettingForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.SerialModulesMonitorForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.ParameterINIForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Forms.NumericUpDownSlider.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.ParameterSerialSettingForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Logging.MessageNotificationForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Logging.HLogger.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.MasterCard.EtherCATInitializationForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.ADC.CEtherCATADC8124Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.DAC.CEtherCATDAC9144Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.IO.CEtherCATDI6022Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.IO.CEtherCATDO7062Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.Motion.CEtherCATMotionSlimForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.EtherCAT.SlaveModules.Motion.CEtherCATMotionForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.ADC.L122A180Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.DAC.L122A104Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.IO.L122DIOForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.L122M1X1Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.L122M2X4Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L122.SlaveModules.Motion.L122M2X4SlimForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.ADC.L132A180ADCForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.DAC.L132A104DACForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.IO.L132DIOForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.L132.SlaveModules.Motion.L132M1X1Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.M314.M314Form.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Modules.Syntek.M314.M314SlimForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeBooleanControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeEditorControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeEnumControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeListSelectForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeLongTextControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipePathControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeTextControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeNumericUpDownControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeListControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.DataRecordControl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.SafeDoorCtl.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Properties.Resources.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.CopyRecipeForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.EditorRecipeForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeEditorForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Resources.Library.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Flow.FlowMonitorForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Resources.Language.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Threading.frmTaskMonitor.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Account.LogInForm.zh-TW.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.RecipeEditorControl.zh-TW.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Recipe.SafeDoorCtl.zh-TW.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.Resources.Language.zh-TW.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.csproj.GenerateResource.Cache
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\AOISystem.Utilities.pdb
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\bin\Debug\AOISystem.Utilities.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\bin\Debug\AOISystem.Utilities.pdb
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\bin\Debug\zh-TW\AOISystem.Utilities.resources.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\bin\Debug\zh-Hant\Microsoft.VisualBasic.PowerPacks.resources.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\AOISystem.Utilities\obj\Debug\zh-TW\AOISystem.Utilities.resources.dll

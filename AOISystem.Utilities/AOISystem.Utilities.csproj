@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F72BA4F-613E-4CE1-9F4D-1C99FFC0CFAB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AOISystem.Utilities</RootNamespace>
+    <AssemblyName>AOISystem.Utilities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\AccountEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\AccountEditorForm.designer.cs">
+      <DependentUpon>AccountEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AccountInfo.cs" />
+    <Compile Include="Account\AccountInfoManager.cs" />
+    <Compile Include="Account\LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\LogInForm.designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account\LogOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\LogOutForm.Designer.cs">
+      <DependentUpon>LogOutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeScanner\AIDAReaderUtility.cs" />
+    <Compile Include="BarcodeScanner\BarcodeText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BarcodeScanner\BarcodeText.designer.cs">
+      <DependentUpon>BarcodeText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeScanner\KeyboardHook.cs" />
+    <Compile Include="BarcodeScanner\MouseHook.cs" />
+    <Compile Include="BarcodeScanner\NativeContansts.cs" />
+    <Compile Include="BarcodeScanner\NativeMethods.cs" />
+    <Compile Include="BarcodeScanner\NativeStructs.cs" />
+    <Compile Include="Collections\CircularList.cs" />
+    <Compile Include="Collections\DictionaryExtension.cs" />
+    <Compile Include="Collections\DynamicComparer.cs" />
+    <Compile Include="Collections\PriorityQueue.cs" />
+    <Compile Include="Collections\SerializableDictionary.cs" />
+    <Compile Include="Collections\SortProperty.cs" />
+    <Compile Include="Common\AutoDeleteMessageBox.cs" />
+    <Compile Include="Common\CustomSortedCategoryAttribute.cs" />
+    <Compile Include="Common\ErrorCode.cs" />
+    <Compile Include="Common\ErrorCodeHelper.cs" />
+    <Compile Include="Common\FilterButterworth.cs" />
+    <Compile Include="Common\FormHelper.cs" />
+    <Compile Include="Common\IImageAcquisition.cs" />
+    <Compile Include="Common\ImageHelper.cs" />
+    <Compile Include="Modules\PN\PN100BI.cs" />
+    <Compile Include="MultiLanguage\MessageBoxManager.cs" />
+    <Compile Include="Common\ParameterDictionary.cs" />
+    <Compile Include="Common\ParameterXML.cs" />
+    <Compile Include="Common\PropertyHelper.cs" />
+    <Compile Include="Common\SimpleMovingAverage.cs" />
+    <Compile Include="Common\SimplePIDController.cs" />
+    <Compile Include="Common\SystemTime.cs" />
+    <Compile Include="Common\WinAPI.cs" />
+    <Compile Include="Component\IONumberAttribute.cs" />
+    <Compile Include="Component\NonMemberAttribute.cs" />
+    <Compile Include="Component\DateTimeEditor.cs" />
+    <Compile Include="Component\EnumBindingDescriptionConverter.cs" />
+    <Compile Include="Component\FilePathEditor.cs" />
+    <Compile Include="Component\FolderPathEditor.cs" />
+    <Compile Include="Component\NumericEditor.cs" />
+    <Compile Include="Data\CompareItem.cs" />
+    <Compile Include="Flow\FlowBase.cs" />
+    <Compile Include="Flow\FlowControl.cs" />
+    <Compile Include="Flow\FlowControlHelper.cs" />
+    <Compile Include="Flow\FlowStatus.cs" />
+    <Compile Include="Flow\FlowVar.cs" />
+    <Compile Include="Forms\BlendProcessbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DirectoryTreeViewEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DirectoryTreeViewEx.Designer.cs">
+      <DependentUpon>DirectoryTreeViewEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ImageToBase64StringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ImageToBase64StringForm.Designer.cs">
+      <DependentUpon>ImageToBase64StringForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOSwitchInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\IOSwitchInput.Designer.cs">
+      <DependentUpon>IOSwitchInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ItemListSortingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ItemListSortingForm.Designer.cs">
+      <DependentUpon>ItemListSortingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LineProfileChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\LineProfileChart.Designer.cs">
+      <DependentUpon>LineProfileChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MessageBoxEx.cs" />
+    <Compile Include="Forms\NeroBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\NeroBar.Designer.cs">
+      <DependentUpon>NeroBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NumpadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NumpadForm.Designer.cs">
+      <DependentUpon>NumpadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PropertyGridForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PropertyGridForm.designer.cs">
+      <DependentUpon>PropertyGridForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProgressBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProgressBarColor.cs" />
+    <Compile Include="Forms\SlideButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SlideButton.Designer.cs">
+      <DependentUpon>SlideButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreenForm.Designer.cs">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\IOSwitchOutput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\IOSwitchOutput.Designer.cs">
+      <DependentUpon>IOSwitchOutput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ParameterXMLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ParameterXMLForm.designer.cs">
+      <DependentUpon>ParameterXMLForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IO\DriveHelper.cs" />
+    <Compile Include="Logging\LogMessageInfo.cs" />
+    <Compile Include="Modules\IMotion.cs" />
+    <Compile Include="Modules\Light\Common\LightChannel.cs" />
+    <Compile Include="Modules\Light\Common\LightChannelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Light\Common\LightChannelControl.Designer.cs">
+      <DependentUpon>LightChannelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Light\CCS\PD3.cs" />
+    <Compile Include="Modules\Light\Common\ILight.cs" />
+    <Compile Include="Modules\Light\Common\LightChannelRenameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Light\Common\LightChannelRenameForm.Designer.cs">
+      <DependentUpon>LightChannelRenameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Light\Common\LightInfo.cs" />
+    <Compile Include="Modules\Light\Common\LightControllerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Light\Common\LightControllerForm.Designer.cs">
+      <DependentUpon>LightControllerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Light\OPT\DP1024F.cs" />
+    <Compile Include="Modules\Light\OPT\DPA6024B.cs" />
+    <Compile Include="Modules\Light\ProPhotonix\CobraSlim.cs" />
+    <Compile Include="Modules\ParameterSocketSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ParameterSocketSettingForm.designer.cs">
+      <DependentUpon>ParameterSocketSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Ports\ParameterSocket.cs" />
+    <Compile Include="Modules\Ports\SocketModulesBase.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\MasterCard\CardInfo.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\MasterCard\EtherCATInitializationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\MasterCard\EtherCATInitializationForm.Designer.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\MasterCard\SlaveInfo.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\ADC\CEtherCATADC8124.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\DAC\CEtherCATDAC9144.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\DAC\CEtherCATDAC9144Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\DAC\CEtherCATDAC9144Form.designer.cs">
+      <DependentUpon>CEtherCATDAC9144Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\DAC\ParameterCEtherCATDAC9144.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\ADC\CEtherCATADC8124Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\ADC\CEtherCATADC8124Form.designer.cs">
+      <DependentUpon>CEtherCATADC8124Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\ADC\ParameterCEtherCATADC8124.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\IO\CEtherCATDI6022.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\IO\CEtherCATDI6022Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\IO\CEtherCATDI6022Form.designer.cs">
+      <DependentUpon>CEtherCATDI6022Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\IO\CEtherCATDO7062Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\IO\CEtherCATDO7062Form.designer.cs">
+      <DependentUpon>CEtherCATDO7062Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\IO\ParameterCEtherCATDI6022.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\IO\ParameterCEtherCATDO7062.cs" />
+    <Compile Include="Modules\SerialModulesMonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SerialModulesMonitorForm.designer.cs">
+      <DependentUpon>SerialModulesMonitorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logging\LogHelper.cs" />
+    <Compile Include="Logging\LogFilter.cs" />
+    <Compile Include="Modules\Light\OPT\DPA6024.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\CEtherCATMotion.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\CEtherCATMotionSlimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\CEtherCATMotionSlimForm.designer.cs">
+      <DependentUpon>CEtherCATMotionSlimForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\CEtherCATMotionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\CEtherCATMotionForm.designer.cs">
+      <DependentUpon>CEtherCATMotionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\MotionModel.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\ParameterCEtherCATMotion.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\ParameterL122M2X4.cs" />
+    <Compile Include="Modules\Ports\SerialModulesBase.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\MasterCard\CEtherCAT.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\MasterCard\CEtherCAT_CheckStatus.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\Library\CEtherCAT_DLL.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\Library\CEtherCAT_DLL_Err.cs" />
+    <Compile Include="Modules\Syntek\EtherCAT\SlaveModules\IO\CEtherCATDO7062.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\ADC\L122A180Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\ADC\L122A180Form.designer.cs">
+      <DependentUpon>L122A180Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\ADC\L122A180.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\DAC\L122A104.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\DAC\L122A104Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\DAC\L122A104Form.designer.cs">
+      <DependentUpon>L122A104Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\L122M2X4.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\L122M2X4Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\L122M2X4Form.designer.cs">
+      <DependentUpon>L122M2X4Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\L122M2X4SlimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\L122M2X4SlimForm.designer.cs">
+      <DependentUpon>L122M2X4SlimForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\M314\M314SlimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\M314\M314SlimForm.designer.cs">
+      <DependentUpon>M314SlimForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Multimedia\IDevice.cs" />
+    <Compile Include="Multimedia\Key.cs" />
+    <Compile Include="Multimedia\Note.cs" />
+    <Compile Include="Multimedia\Time.cs" />
+    <Compile Include="Multimedia\Timer.cs" />
+    <Compile Include="Recipe\RecipeBooleanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeBooleanControl.designer.cs">
+      <DependentUpon>RecipeBooleanControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeEditorControl.Designer.cs">
+      <DependentUpon>RecipeEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeEnumControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeEnumControl.designer.cs">
+      <DependentUpon>RecipeEnumControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeListSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeListSelectForm.Designer.cs">
+      <DependentUpon>RecipeListSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeLongTextControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeLongTextControl.designer.cs">
+      <DependentUpon>RecipeLongTextControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipePathControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipePathControl.designer.cs">
+      <DependentUpon>RecipePathControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeTextControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeTextControl.Designer.cs">
+      <DependentUpon>RecipeTextControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeNumericUpDownControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeNumericUpDownControl.Designer.cs">
+      <DependentUpon>RecipeNumericUpDownControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeListControl.Designer.cs">
+      <DependentUpon>RecipeListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\DataRecordControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\DataRecordControl.Designer.cs">
+      <DependentUpon>DataRecordControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\SafeDoorCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe\SafeDoorCtl.Designer.cs">
+      <DependentUpon>SafeDoorCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemDefine.cs" />
+    <Compile Include="Common\ParameterINI.cs" />
+    <Compile Include="Component\PermissionsAttribute.cs" />
+    <Compile Include="Forms\DecimalTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DirectoryTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DirectoryTreeView.Designer.cs">
+      <DependentUpon>DirectoryTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FilteredPropertyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FilteredPropertyGrid.Designer.cs">
+      <DependentUpon>FilteredPropertyGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ObjectWrapper.cs" />
+    <Compile Include="Forms\ParameterINIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ParameterINIForm.designer.cs">
+      <DependentUpon>ParameterINIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NumericUpDownSlider.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\NumericUpDownSlider.designer.cs">
+      <DependentUpon>NumericUpDownSlider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ComputerUtility.cs" />
+    <Compile Include="Common\ExceptionHelper.cs" />
+    <Compile Include="Common\MathEx.cs" />
+    <Compile Include="Common\PerformanceInfo.cs" />
+    <Compile Include="Data\DataTableAndListExtensions.cs" />
+    <Compile Include="IO\CsvFiles.cs" />
+    <Compile Include="IO\PathHelper.cs" />
+    <Compile Include="Common\ProcessInfo.cs" />
+    <Compile Include="Common\MarshalEx.cs" />
+    <Compile Include="Modules\ParameterSerialSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ParameterSerialSettingForm.designer.cs">
+      <DependentUpon>ParameterSerialSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ModulesBase.cs" />
+    <Compile Include="Modules\ModulesFactory.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\DAC\ParameterL122A104.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\ADC\ParameterL122A180.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\IO\ParameterL122DIO.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\ParameterL122M1X1.cs" />
+    <Compile Include="Modules\Syntek\L132\SlaveModules\DAC\ParameterL132A104.cs" />
+    <Compile Include="Modules\Syntek\L132\SlaveModules\ADC\ParameterL132A180.cs" />
+    <Compile Include="Modules\Syntek\L132\SlaveModules\IO\ParameterL132DIO.cs" />
+    <Compile Include="Modules\Syntek\L132\SlaveModules\Motion\ParameterL132M1X1.cs" />
+    <Compile Include="Modules\Syntek\M314\ParameterM314.cs" />
+    <Compile Include="Modules\Ports\ParameterSerial.cs" />
+    <Compile Include="Modules\Syntek\Define.cs" />
+    <Compile Include="Modules\Syntek\L122\MasterCard\L122.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\IO\L122DIOForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\IO\L122DIOForm.designer.cs">
+      <DependentUpon>L122DIOForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\IO\L122DIO.cs" />
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\L122M1X1Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\L122M1X1Form.designer.cs">
+      <DependentUpon>L122M1X1Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L122\SlaveModules\Motion\L122M1X1.cs" />
+    <Compile Include="Modules\Syntek\L122\Library\ADC_A180.cs" />
+    <Compile Include="Modules\Syntek\L122\Library\CMNet.cs" />
+    <Compile Include="Modules\Syntek\L122\Library\DAC_A104.cs" />
+    <Compile Include="Modules\Syntek\L122\Library\PCI_L122.cs" />
+    <Compile Include="Modules\Syntek\L122\Library\PCI_L122_Err.cs" />
+    <Compile Include="Modules\Syntek\L132\MasterCard\L132.cs" />
+    <Compile Include="Modules\Syntek\L132\SlaveModules\ADC\L132A180ADCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L132\SlaveModules\ADC\L132A180ADCForm.designer.cs">
+      <DependentUpon>L132A180ADCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L132\SlaveModules\ADC\L132A180ADC.cs" />
+    <Compile Include="Modules\Syntek\L132\SlaveModules\DAC\L132A104DACForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L132\SlaveModules\DAC\L132A104DACForm.designer.cs">
+      <DependentUpon>L132A104DACForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L132\SlaveModules\DAC\L132A104DAC.cs" />
+    <Compile Include="Modules\Syntek\L132\SlaveModules\IO\L132DIOForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L132\SlaveModules\IO\L132DIOForm.designer.cs">
+      <DependentUpon>L132DIOForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L132\SlaveModules\IO\L132DIO.cs" />
+    <Compile Include="Modules\Syntek\L132\SlaveModules\Motion\L132M1X1Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\L132\SlaveModules\Motion\L132M1X1Form.designer.cs">
+      <DependentUpon>L132M1X1Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\L132\SlaveModules\Motion\L132M1X1.cs" />
+    <Compile Include="Modules\Syntek\L132\Library\A104_L132.cs" />
+    <Compile Include="Modules\Syntek\L132\Library\A180_L132.cs" />
+    <Compile Include="Modules\Syntek\L132\Library\CMNet.cs" />
+    <Compile Include="Modules\Syntek\L132\Library\MNET_L132.cs" />
+    <Compile Include="Modules\Syntek\L132\Library\PCI_L122.cs" />
+    <Compile Include="Modules\Syntek\L132\Library\PCI_L122_Err.cs" />
+    <Compile Include="Modules\Syntek\L132\Library\PCI_L132.cs" />
+    <Compile Include="Modules\Syntek\M314\M314Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Syntek\M314\M314Form.designer.cs">
+      <DependentUpon>M314Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Syntek\M314\M314.cs" />
+    <Compile Include="Modules\Syntek\M314\Library\PCI_M314.cs" />
+    <Compile Include="MultiLanguage\LanguageManager.cs" />
+    <Compile Include="Logging\CategoryFilterMode.cs" />
+    <Compile Include="Logging\ILoggerTarget.cs" />
+    <Compile Include="Logging\NotifyLogger.cs" />
+    <Compile Include="Logging\MessageNotificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logging\MessageNotificationForm.Designer.cs">
+      <DependentUpon>MessageNotificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logging\HLogger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Logging\HLogger.Designer.cs">
+      <DependentUpon>HLogger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logging\SimpleLogger.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Recipe\ComparerByRecipeNo.cs" />
+    <Compile Include="Recipe\CopyRecipeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recipe\CopyRecipeForm.designer.cs">
+      <DependentUpon>CopyRecipeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\EditorRecipeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recipe\EditorRecipeForm.designer.cs">
+      <DependentUpon>EditorRecipeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recipe\RecipeEditorForm.Designer.cs">
+      <DependentUpon>RecipeEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe\RecipeInfo.cs" />
+    <Compile Include="Recipe\RecipeInfoManager.cs" />
+    <Compile Include="Resources\ResourceHelper.cs" />
+    <Compile Include="Threading\ActionTask.cs" />
+    <Compile Include="Common\ComputerInfo.cs" />
+    <Compile Include="Common\ExceptionInfo.cs" />
+    <Compile Include="IO\SimpleCsvHelper.cs" />
+    <Compile Include="IO\IniFile.cs" />
+    <Compile Include="Common\BitConverterEx.cs" />
+    <Compile Include="Common\FileIOUtility.cs" />
+    <Compile Include="Common\ObjectCopier.cs" />
+    <Compile Include="IO\PathSort.cs" />
+    <Compile Include="Common\PointerConvert.cs" />
+    <Compile Include="Logging\TackTimeLogger.cs" />
+    <Compile Include="IO\XmlFile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Encryption\AESEncryption.cs" />
+    <Compile Include="Flow\FlowMonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flow\FlowMonitorForm.designer.cs">
+      <DependentUpon>FlowMonitorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Threading\frmTaskMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Threading\frmTaskMonitor.Designer.cs">
+      <DependentUpon>frmTaskMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Threading\MMTimer.cs" />
+    <Compile Include="Threading\Polling.cs" />
+    <Compile Include="Threading\TaskManager.cs" />
+    <Compile Include="Forms\DelayTimeButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DelayTimeButton.Designer.cs">
+      <DependentUpon>DelayTimeButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\LedLight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\LedRectangle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\LedRound.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\NumTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ScrollablePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ScrollablePanel.Designer.cs">
+      <DependentUpon>ScrollablePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplitContainerEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\SplitContainerEx.Designer.cs">
+      <DependentUpon>SplitContainerEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Threading\TriggerTask.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Account\AccountEditorForm.resx">
+      <DependentUpon>AccountEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account\LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account\LogInForm.zh-TW.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account\LogOutForm.resx">
+      <DependentUpon>LogOutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeScanner\BarcodeText.resx">
+      <DependentUpon>BarcodeText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DirectoryTreeView.resx">
+      <DependentUpon>DirectoryTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DirectoryTreeViewEx.resx">
+      <DependentUpon>DirectoryTreeViewEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ImageToBase64StringForm.resx">
+      <DependentUpon>ImageToBase64StringForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOSwitchInput.resx">
+      <DependentUpon>IOSwitchInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOSwitchOutput.resx">
+      <DependentUpon>IOSwitchOutput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ItemListSortingForm.resx">
+      <DependentUpon>ItemListSortingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LineProfileChart.resx">
+      <DependentUpon>LineProfileChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NeroBar.resx">
+      <DependentUpon>NeroBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumpadForm.resx">
+      <DependentUpon>NumpadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PropertyGridForm.resx">
+      <DependentUpon>PropertyGridForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SlideButton.resx">
+      <DependentUpon>SlideButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ParameterXMLForm.resx">
+      <DependentUpon>ParameterXMLForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreenForm.resx">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Light\Common\LightChannelControl.resx">
+      <DependentUpon>LightChannelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Light\Common\LightChannelRenameForm.resx">
+      <DependentUpon>LightChannelRenameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Light\Common\LightControllerForm.resx">
+      <DependentUpon>LightControllerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ParameterSocketSettingForm.resx">
+      <DependentUpon>ParameterSocketSettingForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SerialModulesMonitorForm.resx">
+      <DependentUpon>SerialModulesMonitorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ParameterINIForm.resx">
+      <DependentUpon>ParameterINIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumericUpDownSlider.resx">
+      <DependentUpon>NumericUpDownSlider.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ParameterSerialSettingForm.resx">
+      <DependentUpon>ParameterSerialSettingForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logging\MessageNotificationForm.resx">
+      <DependentUpon>MessageNotificationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logging\HLogger.resx">
+      <DependentUpon>HLogger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\EtherCAT\MasterCard\EtherCATInitializationForm.resx" />
+    <EmbeddedResource Include="Modules\Syntek\EtherCAT\SlaveModules\ADC\CEtherCATADC8124Form.resx">
+      <DependentUpon>CEtherCATADC8124Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\EtherCAT\SlaveModules\DAC\CEtherCATDAC9144Form.resx">
+      <DependentUpon>CEtherCATDAC9144Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\EtherCAT\SlaveModules\IO\CEtherCATDI6022Form.resx">
+      <DependentUpon>CEtherCATDI6022Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\EtherCAT\SlaveModules\IO\CEtherCATDO7062Form.resx">
+      <DependentUpon>CEtherCATDO7062Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\CEtherCATMotionSlimForm.resx">
+      <DependentUpon>CEtherCATMotionSlimForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\EtherCAT\SlaveModules\Motion\CEtherCATMotionForm.resx">
+      <DependentUpon>CEtherCATMotionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L122\SlaveModules\ADC\L122A180Form.resx">
+      <DependentUpon>L122A180Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L122\SlaveModules\DAC\L122A104Form.resx">
+      <DependentUpon>L122A104Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L122\SlaveModules\IO\L122DIOForm.resx">
+      <DependentUpon>L122DIOForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L122\SlaveModules\Motion\L122M1X1Form.resx">
+      <DependentUpon>L122M1X1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L122\SlaveModules\Motion\L122M2X4Form.resx">
+      <DependentUpon>L122M2X4Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L122\SlaveModules\Motion\L122M2X4SlimForm.resx">
+      <DependentUpon>L122M2X4SlimForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L132\SlaveModules\ADC\L132A180ADCForm.resx">
+      <DependentUpon>L132A180ADCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L132\SlaveModules\DAC\L132A104DACForm.resx">
+      <DependentUpon>L132A104DACForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L132\SlaveModules\IO\L132DIOForm.resx">
+      <DependentUpon>L132DIOForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\L132\SlaveModules\Motion\L132M1X1Form.resx">
+      <DependentUpon>L132M1X1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\M314\M314Form.resx">
+      <DependentUpon>M314Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Syntek\M314\M314SlimForm.resx">
+      <DependentUpon>M314SlimForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeBooleanControl.resx">
+      <DependentUpon>RecipeBooleanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeEditorControl.resx">
+      <DependentUpon>RecipeEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeEditorControl.zh-TW.resx">
+      <DependentUpon>RecipeEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeEnumControl.resx">
+      <DependentUpon>RecipeEnumControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeListSelectForm.resx">
+      <DependentUpon>RecipeListSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeLongTextControl.resx">
+      <DependentUpon>RecipeLongTextControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipePathControl.resx">
+      <DependentUpon>RecipePathControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeTextControl.resx">
+      <DependentUpon>RecipeTextControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeNumericUpDownControl.resx">
+      <DependentUpon>RecipeNumericUpDownControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeListControl.resx">
+      <DependentUpon>RecipeListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\DataRecordControl.resx">
+      <DependentUpon>DataRecordControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\SafeDoorCtl.resx">
+      <DependentUpon>SafeDoorCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\SafeDoorCtl.zh-TW.resx">
+      <DependentUpon>SafeDoorCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Language.zh-TW.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\CopyRecipeForm.resx">
+      <DependentUpon>CopyRecipeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\EditorRecipeForm.resx">
+      <DependentUpon>EditorRecipeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipe\RecipeEditorForm.resx">
+      <DependentUpon>RecipeEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Library.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flow\FlowMonitorForm.resx">
+      <DependentUpon>FlowMonitorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Language.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Threading\frmTaskMonitor.resx">
+      <DependentUpon>frmTaskMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\AOISystem.Utilities.Recipe.RecipeInfo.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(SolutionDir)\Libraries\OverrideAssemblyVersion.targets" Condition="exists('$(SolutionDir)\OverrideAssemblyVersion.targets')" />
+</Project>

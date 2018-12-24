@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllStop" xml:space="preserve">
+    <value>全機停止</value>
+  </data>
+  <data name="ApplicationExit" xml:space="preserve">
+    <value>確定離開?</value>
+  </data>
+  <data name="ApplicationStartup" xml:space="preserve">
+    <value>主程式啟動</value>
+  </data>
+  <data name="ApplicationStartupTime" xml:space="preserve">
+    <value>程式開啟時間</value>
+  </data>
+  <data name="AutoDeleteDatalog" xml:space="preserve">
+    <value>自動刪除歷史紀錄</value>
+  </data>
+  <data name="AxisBusy" xml:space="preserve">
+    <value>軸忙碌中</value>
+  </data>
+  <data name="AxisStop" xml:space="preserve">
+    <value>軸停止</value>
+  </data>
+  <data name="BackLightAlign" xml:space="preserve">
+    <value>對齊背光</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>取消</value>
+    <comment>Button Label</comment>
+  </data>
+  <data name="btnOK" xml:space="preserve">
+    <value>確定</value>
+    <comment>Button Label</comment>
+  </data>
+  <data name="CannotContainCharacters" xml:space="preserve">
+    <value>不能包含以下字元 : / \ : * ? &lt; &gt; |</value>
+  </data>
+  <data name="ChangeJogSpeed" xml:space="preserve">
+    <value>切換軸速</value>
+  </data>
+  <data name="ChangeLaserRecipe" xml:space="preserve">
+    <value>切換雷射工單</value>
+  </data>
+  <data name="CheckAllHome" xml:space="preserve">
+    <value>請確認完成全機復歸</value>
+  </data>
+  <data name="CheckAxisFree" xml:space="preserve">
+    <value>為軸忙碌狀態</value>
+  </data>
+  <data name="CheckAxisNoAlarm" xml:space="preserve">
+    <value>軸警報發生</value>
+  </data>
+  <data name="CheckBottomLaserZSafe" xml:space="preserve">
+    <value>請確認下雷射Z在安全區</value>
+  </data>
+  <data name="CheckDoorBack" xml:space="preserve">
+    <value>請檢查後方門禁</value>
+  </data>
+  <data name="CheckDoorFront" xml:space="preserve">
+    <value>請檢查前方門禁</value>
+  </data>
+  <data name="CheckDoorLeft" xml:space="preserve">
+    <value>請檢查左方門禁</value>
+  </data>
+  <data name="CheckDoorRight" xml:space="preserve">
+    <value>請檢查右方門禁</value>
+  </data>
+  <data name="CheckEMO" xml:space="preserve">
+    <value>請檢查EMO狀態</value>
+  </data>
+  <data name="CheckHepaAlarm" xml:space="preserve">
+    <value>請檢查Hepa異常狀態</value>
+  </data>
+  <data name="CheckHepaOn" xml:space="preserve">
+    <value>請確認Hepa on狀態</value>
+  </data>
+  <data name="CheckMarkSearch" xml:space="preserve">
+    <value>請確認完成對位</value>
+  </data>
+  <data name="CheckModulesFlowFree" xml:space="preserve">
+    <value>目前為流程忙碌狀態</value>
+  </data>
+  <data name="CheckModulesInitialized" xml:space="preserve">
+    <value>請確認所有元件初始化完成</value>
+  </data>
+  <data name="CheckPowerOn" xml:space="preserve">
+    <value>請檢查Power On</value>
+  </data>
+  <data name="CheckRobotGateClose" xml:space="preserve">
+    <value>請確認閘門正確關閉</value>
+  </data>
+  <data name="CheckRobotGateOpen" xml:space="preserve">
+    <value>請確認閘門正確打開</value>
+  </data>
+  <data name="CheckStaticBarAlarm" xml:space="preserve">
+    <value>除靜電器警報發生</value>
+  </data>
+  <data name="CheckStaticBarAlarmION" xml:space="preserve">
+    <value>除靜電器警報發生(ION)</value>
+  </data>
+  <data name="ClearList" xml:space="preserve">
+    <value>清除影像量測紀錄</value>
+  </data>
+  <data name="CloseAllDoor" xml:space="preserve">
+    <value>請關閉所有門禁</value>
+  </data>
+  <data name="ConfirmAlignment" xml:space="preserve">
+    <value>確認執行全對位流程?</value>
+  </data>
+  <data name="ConfirmAllHome" xml:space="preserve">
+    <value>確認執行全機復歸?</value>
+  </data>
+  <data name="ConfirmInspectAll" xml:space="preserve">
+    <value>確認執行 Inspect All?</value>
+  </data>
+  <data name="ConfirmMaintainMode" xml:space="preserve">
+    <value>確認切換維修模式</value>
+  </data>
+  <data name="ConfirmPanelIn" xml:space="preserve">
+    <value>確認執行入料流程?</value>
+  </data>
+  <data name="ConfirmPanelOut" xml:space="preserve">
+    <value>確認執行出片流程?</value>
+  </data>
+  <data name="ConfirmOperateMode" xml:space="preserve">
+    <value>確認切換運轉模式</value>
+  </data>
+  <data name="ConfirmPCBAnalysis" xml:space="preserve">
+    <value>確認執行全PCB檢查?</value>
+  </data>
+  <data name="CreateUpdateUserComplete" xml:space="preserve">
+    <value>新增/更新使用者成功</value>
+  </data>
+  <data name="CreateUpdateUserFail" xml:space="preserve">
+    <value>新增/更新使用者失敗</value>
+  </data>
+  <data name="CurrentLaserDeviceNotInMaskArea" xml:space="preserve">
+    <value>當前雷射裝置不在Mask area中</value>
+  </data>
+  <data name="DatalogSaveAs" xml:space="preserve">
+    <value>另存紀錄</value>
+  </data>
+  <data name="DisplaySlit" xml:space="preserve">
+    <value>顯示雷射框</value>
+  </data>
+  <data name="Energy" xml:space="preserve">
+    <value>能量</value>
+  </data>
+  <data name="ErrorDataEMO" xml:space="preserve">
+    <value>ALARM : EMO 發生</value>
+  </data>
+  <data name="ErrorDataPowerOn" xml:space="preserve">
+    <value>ALARM : 請打開電源</value>
+  </data>
+  <data name="ErrorDataPressureGaugeP" xml:space="preserve">
+    <value>ALARM : 壓力表警告(吹氣正壓)</value>
+  </data>
+  <data name="FindDatalog" xml:space="preserve">
+    <value>紀錄查詢</value>
+  </data>
+  <data name="GetCurrentImage" xml:space="preserve">
+    <value>取得當前影像</value>
+  </data>
+  <data name="HalconDrawError" xml:space="preserve">
+    <value>繪畫圖形時發生錯誤(可能是繪畫動作尚未完成)</value>
+  </data>
+  <data name="HideSlit" xml:space="preserve">
+    <value>隱藏雷射框</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="LoadDefectFile" xml:space="preserve">
+    <value>載入特徵檔案</value>
+  </data>
+  <data name="LoadFileFirst" xml:space="preserve">
+    <value>請先載入Defect.csv</value>
+  </data>
+  <data name="LoginUser" xml:space="preserve">
+    <value>登入使用者</value>
+  </data>
+  <data name="MachineCoordMove" xml:space="preserve">
+    <value>機謝座標系移動</value>
+  </data>
+  <data name="MaintainMode" xml:space="preserve">
+    <value>維修模式</value>
+  </data>
+  <data name="MaintainModeComplete" xml:space="preserve">
+    <value>已切換到維修模式,進入機台內之前務必關閉電源.</value>
+  </data>
+  <data name="MarkSearch" xml:space="preserve">
+    <value>尋找對位Mark</value>
+  </data>
+  <data name="MarkSearchCompleted" xml:space="preserve">
+    <value>對位流程成功</value>
+  </data>
+  <data name="MarkSearchFailed" xml:space="preserve">
+    <value>對位流程失敗</value>
+  </data>
+  <data name="MaskRepairHint" xml:space="preserve">
+    <value>Mask Repair 提示</value>
+  </data>
+  <data name="Micro" xml:space="preserve">
+    <value>Micro</value>
+  </data>
+  <data name="Mid" xml:space="preserve">
+    <value>Mid</value>
+  </data>
+  <data name="ModulesControlIsBusy" xml:space="preserve">
+    <value>命令忙碌中</value>
+  </data>
+  <data name="ModulesNotInitilized" xml:space="preserve">
+    <value>模組尚未初始化完成</value>
+  </data>
+  <data name="NextMove" xml:space="preserve">
+    <value>下一點</value>
+  </data>
+  <data name="NoDataFound" xml:space="preserve">
+    <value>找不到數據</value>
+  </data>
+  <data name="NotPowerOn" xml:space="preserve">
+    <value>未啟動電源</value>
+  </data>
+  <data name="ObjectiveError" xml:space="preserve">
+    <value>倍鏡錯誤 (請使用20x 或50x倍鏡)</value>
+  </data>
+  <data name="OpenImageDirectory" xml:space="preserve">
+    <value>開啟圖像目錄</value>
+  </data>
+  <data name="OperateMode" xml:space="preserve">
+    <value>運轉模式</value>
+  </data>
+  <data name="OperateModeCompleteMaskInAlready" xml:space="preserve">
+    <value>運轉模式完成,Mask進片完成.</value>
+  </data>
+  <data name="OperateModeCompleteWaitMaskIn" xml:space="preserve">
+    <value>運轉模式完成,等待Mask進片.</value>
+  </data>
+  <data name="PleaseAllHomeFirst" xml:space="preserve">
+    <value>請先執行全機復歸</value>
+  </data>
+  <data name="PleaseExcuteMarkSearchFirst" xml:space="preserve">
+    <value>Mark Search 尚未完成，請先執行Mark Search流程。</value>
+  </data>
+  <data name="PleaseMarkSearchFirst" xml:space="preserve">
+    <value>請先執行對位流程</value>
+  </data>
+  <data name="PreviousMove" xml:space="preserve">
+    <value>前一點</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>另存圖片</value>
+  </data>
+  <data name="SaveCurrentImageTo" xml:space="preserve">
+    <value>儲存當前影像到</value>
+  </data>
+  <data name="SetAllLensSamePointCompleted" xml:space="preserve">
+    <value>倍鏡同焦設定完成</value>
+  </data>
+  <data name="SettingLaserRecipeList" xml:space="preserve">
+    <value>設定雷射工單清單</value>
+  </data>
+  <data name="ShotNum" xml:space="preserve">
+    <value>擊發數</value>
+  </data>
+  <data name="Slit" xml:space="preserve">
+    <value>雷射框</value>
+  </data>
+  <data name="SwitchSpeed" xml:space="preserve">
+    <value>切換速度</value>
+  </data>
+  <data name="SystemHint" xml:space="preserve">
+    <value>系統提示</value>
+  </data>
+  <data name="TerminalProgram" xml:space="preserve">
+    <value>結束程式</value>
+  </data>
+  <data name="TextFileFormatWrong" xml:space="preserve">
+    <value>文字檔案格式錯誤</value>
+  </data>
+  <data name="ThereIsNoMaskInStageArea" xml:space="preserve">
+    <value>Stage上沒有Mask</value>
+  </data>
+  <data name="txtAccount" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="UserLogin" xml:space="preserve">
+    <value>使用者登入</value>
+  </data>
+  <data name="UserLogout" xml:space="preserve">
+    <value>使用者登出</value>
+  </data>
+  <data name="MaintainModeFailed" xml:space="preserve">
+    <value>Maintain Mode Failed</value>
+  </data>
+  <data name="CheckBackLightReady" xml:space="preserve">
+    <value>請確認背光模組Ready狀態</value>
+  </data>
+  <data name="CheckSafeLightGate" xml:space="preserve">
+    <value>請確認光閘異常狀態</value>
+  </data>
+  <data name="MicroscopeHint" xml:space="preserve">
+    <value>Microscope 提示</value>
+  </data>
+  <data name="CheckRobotRun" xml:space="preserve">
+    <value>請確認Robot已連線</value>
+  </data>
+  <data name="ConfirmPanelOutBuffer" xml:space="preserve">
+    <value>確認正面出片到Buffer?</value>
+  </data>
+  <data name="ConfirmPanelOutBufferBack" xml:space="preserve">
+    <value>確認反面出片到Buffer?</value>
+  </data>
+  <data name="ConfirmPanelOutNG" xml:space="preserve">
+    <value>確認NG出片?</value>
+  </data>
+  <data name="ConfirmPanelOutOK" xml:space="preserve">
+    <value>確認OK出片?</value>
+  </data>
+  <data name="ConfirmPanelOutRotate" xml:space="preserve">
+    <value>確認翻轉再進?</value>
+  </data>
+  <data name="DidntFindL122" xml:space="preserve">
+    <value>找不到PCI L122</value>
+  </data>
+  <data name="DidntFindM1X1" xml:space="preserve">
+    <value>找不到M1X1模組</value>
+  </data>
+  <data name="DefaultParameter" xml:space="preserve">
+    <value>請重新設定參數</value>
+  </data>
+  <data name="DeviceTableError" xml:space="preserve">
+    <value>取得Device Table時發生錯誤</value>
+  </data>
+  <data name="GetRingNoFailure" xml:space="preserve">
+    <value>取得RingNo時發生錯誤</value>
+  </data>
+  <data name="RingConfigError" xml:space="preserve">
+    <value>設定Ring Config發生錯誤</value>
+  </data>
+  <data name="AOISystemLibraryMessage" xml:space="preserve">
+    <value>核心系統提示</value>
+  </data>
+  <data name="WrongRingNo" xml:space="preserve">
+    <value>RingNo 錯誤</value>
+  </data>
+  <data name="WrongSlaveIP" xml:space="preserve">
+    <value>SlaveIP設定錯誤</value>
+  </data>
+  <data name="InitializeErrorM1X1" xml:space="preserve">
+    <value>M1X1模組初始化失敗</value>
+  </data>
+  <data name="StartCommError" xml:space="preserve">
+    <value>啟動Ring通訊失敗</value>
+  </data>
+  <data name="WrongDeviceTypeM1X1" xml:space="preserve">
+    <value>此模組非M1X1</value>
+  </data>
+  <data name="CommandBusy" xml:space="preserve">
+    <value>命令忙碌中</value>
+  </data>
+  <data name="ComportBusy" xml:space="preserve">
+    <value>Comport 忙碌中</value>
+  </data>
+  <data name="DidntFindA180ADC" xml:space="preserve">
+    <value>找不到A180ADC模組</value>
+  </data>
+  <data name="InitializeErrorA180ADC" xml:space="preserve">
+    <value>A180ADC模組初始化失敗</value>
+  </data>
+  <data name="SetCycleErrorA180ADC" xml:space="preserve">
+    <value>設定A180ADC掃描時間時發生錯誤</value>
+  </data>
+  <data name="WrongDeviceTypeA180ADC" xml:space="preserve">
+    <value>此模組非A180ADC</value>
+  </data>
+  <data name="DidntFindA104DAC" xml:space="preserve">
+    <value>找不到A104DAC模組</value>
+  </data>
+  <data name="DidntFindL132" xml:space="preserve">
+    <value>找不到PCI L132</value>
+  </data>
+  <data name="InitializeErrorA104DAC" xml:space="preserve">
+    <value>A104DAC模組初始化失敗</value>
+  </data>
+  <data name="InitializeErrorL132" xml:space="preserve">
+    <value>L132初始化失敗</value>
+  </data>
+  <data name="StartupErrorL132" xml:space="preserve">
+    <value>L132啟動失敗</value>
+  </data>
+  <data name="WrongDeviceTypeA104DAC" xml:space="preserve">
+    <value>此模組非A104DAC</value>
+  </data>
+  <data name="AssemblyIsNull" xml:space="preserve">
+    <value>Namespace錯誤</value>
+  </data>
+  <data name="WrongClassName" xml:space="preserve">
+    <value>ClassName設定錯誤</value>
+  </data>
+  <data name="ApplicationFinish" xml:space="preserve">
+    <value>確定結束?</value>
+  </data>
+  <data name="ComportIsWriting" xml:space="preserve">
+    <value>Comport忙碌中</value>
+  </data>
+  <data name="BaudRateConvertError" xml:space="preserve">
+    <value>BaudRate轉型錯誤</value>
+  </data>
+  <data name="WrongCommand" xml:space="preserve">
+    <value>命令錯誤</value>
+  </data>
+  <data name="CmdTimeout" xml:space="preserve">
+    <value>Serial命令等待回覆逾時</value>
+  </data>
+  <data name="TimeoutOutOfLimitN" xml:space="preserve">
+    <value>脫離負極限逾時</value>
+  </data>
+  <data name="TimeoutOutOfORG" xml:space="preserve">
+    <value>脫離原點逾時</value>
+  </data>
+  <data name="TimeoutEnterORG" xml:space="preserve">
+    <value>進入原點逾時</value>
+  </data>
+  <data name="DidntFindM314" xml:space="preserve">
+    <value>找不到M314</value>
+  </data>
+  <data name="InitializeErrorM314" xml:space="preserve">
+    <value>M314初始化失敗</value>
+  </data>
+  <data name="CommandError" xml:space="preserve">
+    <value>命令錯誤</value>
+  </data>
+  <data name="DeviceNotEnable" xml:space="preserve">
+    <value>裝置未啟動</value>
+  </data>
+  <data name="PointConvertError" xml:space="preserve">
+    <value>ToPoint() 轉型錯誤</value>
+  </data>
+  <data name="WrongFilePath" xml:space="preserve">
+    <value>檔案路徑錯誤</value>
+  </data>
+  <data name="ConfirmModifyParameters" xml:space="preserve">
+    <value>確認修改參數?</value>
+  </data>
+  <data name="ErrorOccurInstanceMissing" xml:space="preserve">
+    <value>錯誤發生 : InputObject (instance) is Missing</value>
+  </data>
+  <data name="Teach" xml:space="preserve">
+    <value>教導</value>
+    <comment>Button Label</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>檢視</value>
+    <comment>Button Label</comment>
+  </data>
+  <data name="SafeDoorStationAoiDoor" xml:space="preserve">
+    <value>檢測站電控箱</value>
+  </data>
+  <data name="SafeDoorStationAoiWindow" xml:space="preserve">
+    <value>檢測站窗戶</value>
+  </data>
+  <data name="SafeDoorStationBin" xml:space="preserve">
+    <value>分類站電控箱</value>
+  </data>
+  <data name="SafeDoorStationLoader" xml:space="preserve">
+    <value>入料站</value>
+  </data>
+  <data name="SafeDoorStationUnloader" xml:space="preserve">
+    <value>出料站</value>
+  </data>
+  <data name="ChangeRecipeMsg1" xml:space="preserve">
+    <value>請確認是否更換Reipce </value>
+    <comment>Recipe Operation</comment>
+  </data>
+  <data name="ChangeRecipeMsg2" xml:space="preserve">
+    <value>為預設Recipe檔案?</value>
+    <comment>Recipe Operation</comment>
+  </data>
+  <data name="DeleteRecipeMsg" xml:space="preserve">
+    <value>不能刪除作用中Recipe</value>
+  </data>
+  <data name="DeleteRecipeMsg1" xml:space="preserve">
+    <value>是否刪除所選擇的Recipe</value>
+  </data>
+  <data name="ExistRecipeMsg1" xml:space="preserve">
+    <value>此Recipe ID名稱已存在, 請重新輸入!</value>
+  </data>
+  <data name="ExistRecipeMsg2" xml:space="preserve">
+    <value>此Recipe No名稱已存在, 請重新輸入!</value>
+  </data>
+  <data name="NoRecipeIdMsg" xml:space="preserve">
+    <value>找不到Recipe ID</value>
+  </data>
+  <data name="NoRecipeNoMsg" xml:space="preserve">
+    <value>找不到Recipe NO</value>
+  </data>
+  <data name="SelectRecipeMsg" xml:space="preserve">
+    <value>尚未選取來源Recipe參數</value>
+    <comment>Recipe Operation</comment>
+  </data>
+  <data name="AccountbtnAdd" xml:space="preserve">
+    <value>新增</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountbtnDelete" xml:space="preserve">
+    <value>刪除</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountbtnExit" xml:space="preserve">
+    <value>離開</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountbtnModify" xml:space="preserve">
+    <value>變更</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountbtnOK" xml:space="preserve">
+    <value>存檔</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountEmptyMsg" xml:space="preserve">
+    <value>帳號或密碼不能有空白資料</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountExistMsg" xml:space="preserve">
+    <value>此帳號已存在</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountFormTitle" xml:space="preserve">
+    <value>帳號編輯頁面</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountgrpAccountEdit" xml:space="preserve">
+    <value>使用者</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountlblAccount" xml:space="preserve">
+    <value>帳號</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountlblAccountLevel" xml:space="preserve">
+    <value>權限等級</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountlblPassword" xml:space="preserve">
+    <value>密碼</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountNoExistMsg" xml:space="preserve">
+    <value>此帳號不存在</value>
+    <comment>Account</comment>
+  </data>
+  <data name="MessageBoxAbort" xml:space="preserve">
+    <value>&amp;中止</value>
+    <comment>MessageBox Abort</comment>
+  </data>
+  <data name="MessageBoxCancel" xml:space="preserve">
+    <value>&amp;取消</value>
+    <comment>MessageBox Cancel</comment>
+  </data>
+  <data name="MessageBoxIgnore" xml:space="preserve">
+    <value>&amp;略過</value>
+    <comment>MessageBox Ignore</comment>
+  </data>
+  <data name="MessageBoxNo" xml:space="preserve">
+    <value>&amp;否</value>
+    <comment>MessageBox No</comment>
+  </data>
+  <data name="MessageBoxOK" xml:space="preserve">
+    <value>&amp;是</value>
+    <comment>MessageBox OK</comment>
+  </data>
+  <data name="MessageBoxRetry" xml:space="preserve">
+    <value>&amp;重試</value>
+    <comment>MessageBox Retry</comment>
+  </data>
+  <data name="MessageBoxYes" xml:space="preserve">
+    <value>&amp;確定</value>
+    <comment>MessageBox Yes</comment>
+  </data>
+  <data name="NoUser" xml:space="preserve">
+    <value>沒有使用者</value>
+    <comment>Account</comment>
+  </data>
+  <data name="ChagneRecipeRepeatMsg" xml:space="preserve">
+    <value>請勿短時間內重複切換Recipe，請等待後再重試</value>
+    <comment>Recipe Operation</comment>
+  </data>
+</root>

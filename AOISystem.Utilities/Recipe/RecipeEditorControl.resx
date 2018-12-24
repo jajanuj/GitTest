@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvRecipeList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgvRecipeList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 66</value>
+  </data>
+  <data name="dgvRecipeList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 490</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvRecipeList.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;dgvRecipeList.Name" xml:space="preserve">
+    <value>dgvRecipeList</value>
+  </data>
+  <data name="&gt;&gt;dgvRecipeList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvRecipeList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvRecipeList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpSelect.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnRecipeChange.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnRecipeChange.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnRecipeChange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnRecipeChange.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACtklEQVQ4T2VSa0iTYRQeFKVkkoFZ6ibZ
+        hXSaKYYopdINqqFpRplYYmF2oSgzhDBBzR9CWkFltnSmmemmUyPzkrnl1HmhvP0xnNMpoXNmU4vt+95z
+        et+N+tPh+8738H7POed5zzkCAEBE6gnHU0DNODEx9aFZX98w093zy2KxHwIhzAMI7B/gOAoM/f3yY5KK
+        3X7yALEiQPw2QFzu76/OzrFyVvqX8Cwjq2BHvc+KXrq59t2+YO5RomkUV3S8rmv6zaO6IJ/KkNAFo5HF
+        ECLgbEVHquVSJ0djbQHOqlHXDt862DPegQYVTn1URYXTGKvFAjwvoOKW5uZKhULDg6s4WslpSuCLAoYb
+        YeQ9fK0j2gqiKcah8jpfoSY3j0mir/ZJUaOfCNUFvDILWgtQ9Ry0r7G7DLrKcH6Cnx0HVeFMXlKFWLy8
+        ssLu0BB3eigxHGpu8p9eoFEP3ZWozMaWxzinox0EsxGqMzjZtaodwunePlZBERKmS4mEp/Gks4r1+PcS
+        dsjQMEoh/jSS6nvk4RmUXZJ7uky8a2IBdQcOj50KhPxokhuNg+2MZ+sbLs5BSRrcj4YcCeTH1nhunGxr
+        Z5Kab6V3Bm7GzIP8jVC4Ewl9TYxt+g6FFzE9gmQcgrSw5Sth5d5eRv0kq6D/rHnl7GC9HEKSdpFkf0wN
+        hpJMyDqJyX6Qupc/54PXgweCt9RKoui0BbzVSui94xPa3B0wZQ+e8OBjhESyicSISJw3H+WOCdvmY32l
+        jmun+wfoUgjomKkq84+FsqDgVncHS+x2jPZAiRsed2U+bqt+v6d0zSptsZRqoWQmiQ6cevPiYkPieZmL
+        k1rkOOa/XhfgPLhzXf2G1aUir+EaOaNxHE39d1ttMdR0mq6WjLvKI0cV+yIazybSxGaTiZ7b2RSwCnbE
+        tNl29n/j/y05wB/icjXY0uWEtQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnRecipeChange.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnRecipeChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 3</value>
+  </data>
+  <data name="btnRecipeChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 29</value>
+  </data>
+  <data name="btnRecipeChange.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btnRecipeChange.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="btnRecipeChange.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeChange.Name" xml:space="preserve">
+    <value>btnRecipeChange</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeChange.Parent" xml:space="preserve">
+    <value>tlpSelect</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeChange.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboCurrentRecipeChange.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cboCurrentRecipeChange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="cboCurrentRecipeChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 3</value>
+  </data>
+  <data name="cboCurrentRecipeChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 28</value>
+  </data>
+  <data name="cboCurrentRecipeChange.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;cboCurrentRecipeChange.Name" xml:space="preserve">
+    <value>cboCurrentRecipeChange</value>
+  </data>
+  <data name="&gt;&gt;cboCurrentRecipeChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboCurrentRecipeChange.Parent" xml:space="preserve">
+    <value>tlpSelect</value>
+  </data>
+  <data name="&gt;&gt;cboCurrentRecipeChange.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCurrentRecipe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCurrentRecipe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblCurrentRecipe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblCurrentRecipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblCurrentRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 35</value>
+  </data>
+  <data name="lblCurrentRecipe.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblCurrentRecipe.Text" xml:space="preserve">
+    <value>Current Recipe : </value>
+  </data>
+  <data name="lblCurrentRecipe.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRecipe.Name" xml:space="preserve">
+    <value>lblCurrentRecipe</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRecipe.Parent" xml:space="preserve">
+    <value>tlpSelect</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRecipe.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpSelect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tlpSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpSelect.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 35</value>
+  </data>
+  <data name="tlpSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpSelect.Name" xml:space="preserve">
+    <value>tlpSelect</value>
+  </data>
+  <data name="&gt;&gt;tlpSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpSelect.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpSelect.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnRecipeChange" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="cboCurrentRecipeChange" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCurrentRecipe" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,121,Percent,100,Absolute,82" /&gt;&lt;Rows Styles="Percent,100,Absolute,35" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpView.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNo.Name" xml:space="preserve">
+    <value>lblRecipeNo</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNo.Parent" xml:space="preserve">
+    <value>tlpView</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeID.Name" xml:space="preserve">
+    <value>lblRecipeID</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeID.Parent" xml:space="preserve">
+    <value>tlpView</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tlpView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 35</value>
+  </data>
+  <data name="tlpView.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 31</value>
+  </data>
+  <data name="tlpView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpView.Name" xml:space="preserve">
+    <value>tlpView</value>
+  </data>
+  <data name="&gt;&gt;tlpView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpView.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblRecipeNo" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeID" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,26.84564,Percent,73.15437,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lblRecipeNo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblRecipeNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblRecipeNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 31</value>
+  </data>
+  <data name="lblRecipeNo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblRecipeNo.Text" xml:space="preserve">
+    <value>Recipe No：000</value>
+  </data>
+  <data name="lblRecipeNo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNo.Name" xml:space="preserve">
+    <value>lblRecipeNo</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNo.Parent" xml:space="preserve">
+    <value>tlpView</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRecipeID.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblRecipeID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 0</value>
+  </data>
+  <data name="lblRecipeID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 31</value>
+  </data>
+  <data name="lblRecipeID.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblRecipeID.Text" xml:space="preserve">
+    <value>Recipe ID：RecipeID</value>
+  </data>
+  <data name="lblRecipeID.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeID.Name" xml:space="preserve">
+    <value>lblRecipeID</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeID.Parent" xml:space="preserve">
+    <value>tlpView</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpEdit.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeCopy.Name" xml:space="preserve">
+    <value>btnRecipeCopy</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeCopy.Parent" xml:space="preserve">
+    <value>tlpEdit</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeCopy.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeEdit.Name" xml:space="preserve">
+    <value>btnRecipeEdit</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeEdit.Parent" xml:space="preserve">
+    <value>tlpEdit</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeEdit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeDelete.Name" xml:space="preserve">
+    <value>btnRecipeDelete</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeDelete.Parent" xml:space="preserve">
+    <value>tlpEdit</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeDelete.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpEdit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tlpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 556</value>
+  </data>
+  <data name="tlpEdit.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 49</value>
+  </data>
+  <data name="tlpEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;tlpEdit.Name" xml:space="preserve">
+    <value>tlpEdit</value>
+  </data>
+  <data name="&gt;&gt;tlpEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpEdit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpEdit.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnRecipeCopy" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnRecipeEdit" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnRecipeDelete" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;Rows Styles="Percent,100,Absolute,49" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="btnRecipeCopy.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnRecipeCopy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnRecipeCopy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnRecipeCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsMAAALDAE/QCLIAAADPklE
+        QVRYR8WXTU8aURSGq+mi68a4JnbtjzCa/gPTxFX3pqnL+gs0djau6hdEjdWFuDJIxTTWloBaYGA+IKLA
+        8DUwwEj3jZ6eMw12GO8gEyd28eQOFzjnue/NXIZnAPBfYU4+JcxJKz6fz5PJZBaz2azPDnz/E8/z78fG
+        xl4NDw8PsuqwYE6amZiYGBBFcVbXr2/b7TbYge9DLpf/vb+/H1laWnrLqsWCOWlmfHx8MJ1Oc9ftX/Ag
+        122IRCKwsbEBBwcHgenp6dejo6PPWXU73JuYn58fQjwdvF7viCzLK1S8HyrVKgQCAVhdXb3Z3t6u7O7u
+        fpibmxuy9unQ9WJzc3NSVdUbTdOgQ72ugaIUjYj7pVKpws7ODiwvL5MI+P1+JRwOv5mZmXlp7kfcXeBe
+        D+JKF9oYpRlaVblSgRYW7puWDvF4HNbX1w0JYmtrSw+FQp+npqZe2AoYe22JlFZULpeh2Ww5oq41IBo9
+        hbW1NcBtBP/eHkSiUcCU3/UU0PW/TTsjraZUIoGmIxpItapCIpEAnk+CUiyilAaSJH2kXrYCrRY1/Uez
+        qUOxWAKt0WSjOUOSZI7uLKaALJOAbqy6QwPjVFCAItUQ6+iUBwRkjhp2gauku6CGdwMLukucIEqSvYDE
+        ENAaDSgoCjarQ61GTS2jcd3/2FsA47FGRtaFggKqWnMFPNZ7CUgc7a0Zss4XClDFL1eriHV0iK0ATYqi
+        xBnRmlBrdcjnC3jEqq5APWix9gLY0AzFlsvnjeOVRdkhlEAPAZEzojWD1vgzC6VyxRUEwaEAxXaVyzGL
+        EUU8JZ3woAAr4surHB5GZVCwgHWkok5GQRDsBQQUsO4ZrTJ7eWWchm7QWwDjYUV8cZGFi+ylK/DJpL1A
+        Cu2ooRmyltMZiMV5V/gZi/UQSAmcNbIC/g4kUwIcfT12hWg0utBDIMXl8di1QgkED48gEPzyKIKHoRt8
+        RJvs9LwnEI8nuJQoAQseU3BCLBZbwf8TI/hA6jFx7+G0S+Ds7JwLR07BDc7Oz7v22o67C/zwAD7DzQaC
+        h7cIRvYobiNYCxc1YG7GouuF1+vznHz/sXj87cT3GKgG1TLXtoM5+ZQwJ58OePYHBCbMwfSEPZsAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnRecipeCopy.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnRecipeCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 3</value>
+  </data>
+  <data name="btnRecipeCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 5, 3</value>
+  </data>
+  <data name="btnRecipeCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 43</value>
+  </data>
+  <data name="btnRecipeCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnRecipeCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="btnRecipeCopy.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeCopy.Name" xml:space="preserve">
+    <value>btnRecipeCopy</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeCopy.Parent" xml:space="preserve">
+    <value>tlpEdit</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeCopy.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRecipeEdit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnRecipeEdit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnRecipeEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnRecipeEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        TkSuQmCC
+</value>
+  </data>
+  <data name="btnRecipeEdit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnRecipeEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 3</value>
+  </data>
+  <data name="btnRecipeEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 5, 3</value>
+  </data>
+  <data name="btnRecipeEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 43</value>
+  </data>
+  <data name="btnRecipeEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnRecipeEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btnRecipeEdit.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeEdit.Name" xml:space="preserve">
+    <value>btnRecipeEdit</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeEdit.Parent" xml:space="preserve">
+    <value>tlpEdit</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeEdit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnRecipeDelete.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnRecipeDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnRecipeDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnRecipeDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnRecipeDelete.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnRecipeDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 3</value>
+  </data>
+  <data name="btnRecipeDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 5, 3</value>
+  </data>
+  <data name="btnRecipeDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 43</value>
+  </data>
+  <data name="btnRecipeDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnRecipeDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnRecipeDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeDelete.Name" xml:space="preserve">
+    <value>btnRecipeDelete</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeDelete.Parent" xml:space="preserve">
+    <value>tlpEdit</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeDelete.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 605</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RecipeEditorControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

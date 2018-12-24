@@ -1,0 +1,47 @@
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\bin\x64\Debug\ServerApp.exe.config
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\bin\x64\Debug\ServerApp.exe
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\bin\x64\Debug\ServerApp.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\bin\x64\Debug\AOISystem.MMFHandshake.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\bin\x64\Debug\AOISystem.Utilities.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\bin\x64\Debug\AOISystem.MMFHandshake.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\bin\x64\Debug\AOISystem.Utilities.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\bin\x64\Debug\zh-TW\AOISystem.Utilities.resources.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\obj\x64\Debug\ServerApp.csprojResolveAssemblyReference.cache
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\obj\x64\Debug\ServerApp.MainForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\obj\x64\Debug\ServerApp.Properties.Resources.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\obj\x64\Debug\ServerApp.csproj.GenerateResource.Cache
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\obj\x64\Debug\ServerApp.exe
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\MMFApp_20180525\ServerApp\obj\x64\Debug\ServerApp.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\ServerApp.exe.config
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.exe
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\SharedMemorySample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\ServerApp.exe.config
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.exe
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\ServerApp.exe
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\ServerApp.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\AOISystem.MMFHandshake.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\AOISystem.Utilities.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\AOISystem.MMFHandshake.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\AOISystem.Utilities.pdb
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\zh-TW\AOISystem.Utilities.resources.dll
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.csprojResolveAssemblyReference.cache
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.MainForm.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.Properties.Resources.resources
+D:\ACC Synchronous\Ghostx2\AOISystemProject\WIS.Project\模組工具\AOISystem.MMFHandshake.Sample\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.csproj.GenerateResource.Cache
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\ServerApp.exe.config
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.exe
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.pdb
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\ServerApp.exe
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\ServerApp.pdb
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\AOISystem.MMFHandshake.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\AOISystem.Utilities.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\AOISystem.MMFHandshake.pdb
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\AOISystem.Utilities.pdb
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\zh-TW\AOISystem.Utilities.resources.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.csprojResolveAssemblyReference.cache
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.MainForm.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.Properties.Resources.resources
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\obj\x64\Debug\ServerApp.csproj.GenerateResource.Cache
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\@Work\GitTest\AOISystem.MMFHandshake.Sample_20180525\ServerApp\bin\x64\Debug\zh-Hant\Microsoft.VisualBasic.PowerPacks.resources.dll

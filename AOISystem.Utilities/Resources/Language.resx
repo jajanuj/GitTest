@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllStop" xml:space="preserve">
+    <value>All Stop</value>
+  </data>
+  <data name="ApplicationExit" xml:space="preserve">
+    <value>Application Exit?</value>
+  </data>
+  <data name="ApplicationStartup" xml:space="preserve">
+    <value>Application Startup</value>
+  </data>
+  <data name="ApplicationStartupTime" xml:space="preserve">
+    <value>Application Startup Time</value>
+  </data>
+  <data name="AutoDeleteDatalog" xml:space="preserve">
+    <value>AutoDeleteDatalog</value>
+  </data>
+  <data name="AxisBusy" xml:space="preserve">
+    <value>Axis Busying</value>
+  </data>
+  <data name="AxisStop" xml:space="preserve">
+    <value>Axis Stop</value>
+  </data>
+  <data name="BackLightAlign" xml:space="preserve">
+    <value>Back Light Align</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Button Label</comment>
+  </data>
+  <data name="btnOK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Button Label</comment>
+  </data>
+  <data name="CannotContainCharacters" xml:space="preserve">
+    <value>Cannot contain any of the following characters : / \ : * ? &lt; &gt; |</value>
+  </data>
+  <data name="ChangeJogSpeed" xml:space="preserve">
+    <value>Change Jog Speed</value>
+  </data>
+  <data name="ChangeLaserRecipe" xml:space="preserve">
+    <value>Change Laser Recipe</value>
+  </data>
+  <data name="CheckAllHome" xml:space="preserve">
+    <value>Make sure all home complete</value>
+  </data>
+  <data name="CheckAxisFree" xml:space="preserve">
+    <value>Axis busy now</value>
+  </data>
+  <data name="CheckAxisNoAlarm" xml:space="preserve">
+    <value>Axis Alarm Occur</value>
+  </data>
+  <data name="CheckBottomLaserZSafe" xml:space="preserve">
+    <value>Make sure BottomLaserZ is safe</value>
+  </data>
+  <data name="CheckDoorBack" xml:space="preserve">
+    <value>Please check back door</value>
+  </data>
+  <data name="CheckDoorFront" xml:space="preserve">
+    <value>Please check front door</value>
+  </data>
+  <data name="CheckDoorLeft" xml:space="preserve">
+    <value>Please check left door</value>
+  </data>
+  <data name="CheckDoorRight" xml:space="preserve">
+    <value>Please check right door</value>
+  </data>
+  <data name="CheckEMO" xml:space="preserve">
+    <value>Please check EMO</value>
+  </data>
+  <data name="CheckHepaAlarm" xml:space="preserve">
+    <value>Please check hepa alarm</value>
+  </data>
+  <data name="CheckHepaOn" xml:space="preserve">
+    <value>Please check hepa on</value>
+  </data>
+  <data name="CheckMarkSearch" xml:space="preserve">
+    <value>Make sure alignment is complete</value>
+  </data>
+  <data name="CheckModulesFlowFree" xml:space="preserve">
+    <value>Flow busy now</value>
+  </data>
+  <data name="CheckModulesInitialized" xml:space="preserve">
+    <value>Make sure all modules initialized</value>
+  </data>
+  <data name="CheckPowerOn" xml:space="preserve">
+    <value>Please check power on</value>
+  </data>
+  <data name="CheckRobotGateClose" xml:space="preserve">
+    <value>Please check robot gate is closed</value>
+  </data>
+  <data name="CheckRobotGateOpen" xml:space="preserve">
+    <value>Please check robot gate is opened</value>
+  </data>
+  <data name="CheckStaticBarAlarm" xml:space="preserve">
+    <value>Static bar alarm occur</value>
+  </data>
+  <data name="CheckStaticBarAlarmION" xml:space="preserve">
+    <value>Static bar alarm occur (ION)</value>
+  </data>
+  <data name="ClearList" xml:space="preserve">
+    <value>Clear Measure Result</value>
+  </data>
+  <data name="CloseAllDoor" xml:space="preserve">
+    <value>Please Close All Door</value>
+  </data>
+  <data name="ConfirmAlignment" xml:space="preserve">
+    <value>Confirm execute Alignment?</value>
+  </data>
+  <data name="ConfirmAllHome" xml:space="preserve">
+    <value>Confirm execute All Home?</value>
+  </data>
+  <data name="ConfirmInspectAll" xml:space="preserve">
+    <value>Confirm Excute Inspect All?</value>
+  </data>
+  <data name="ConfirmMaintainMode" xml:space="preserve">
+    <value>ConfirmMaintainMode</value>
+  </data>
+  <data name="ConfirmPanelIn" xml:space="preserve">
+    <value>Confirm Excute Panel In?</value>
+  </data>
+  <data name="ConfirmPanelOut" xml:space="preserve">
+    <value>Confirm Excute Panel Out?</value>
+  </data>
+  <data name="ConfirmOperateMode" xml:space="preserve">
+    <value>ConfirmOperateMode</value>
+  </data>
+  <data name="ConfirmPCBAnalysis" xml:space="preserve">
+    <value>Confirm execute PCB Analysis?</value>
+  </data>
+  <data name="CreateUpdateUserComplete" xml:space="preserve">
+    <value>Create Update User Complete</value>
+  </data>
+  <data name="CreateUpdateUserFail" xml:space="preserve">
+    <value>Create Update User Fail</value>
+  </data>
+  <data name="CurrentLaserDeviceNotInMaskArea" xml:space="preserve">
+    <value>Curren laser device is not in mask area</value>
+  </data>
+  <data name="DatalogSaveAs" xml:space="preserve">
+    <value>Datalog Save As</value>
+  </data>
+  <data name="DisplaySlit" xml:space="preserve">
+    <value>Display Slit</value>
+  </data>
+  <data name="Energy" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="ErrorDataEMO" xml:space="preserve">
+    <value>ALARM : EMO Occur</value>
+  </data>
+  <data name="ErrorDataPowerOn" xml:space="preserve">
+    <value>ALARM : Please Power ON</value>
+  </data>
+  <data name="ErrorDataPressureGaugeP" xml:space="preserve">
+    <value>ALARM : Pressure Gauge Warning (Blow)</value>
+  </data>
+  <data name="FindDatalog" xml:space="preserve">
+    <value>Find Datalog</value>
+  </data>
+  <data name="GetCurrentImage" xml:space="preserve">
+    <value>Get Current Image</value>
+  </data>
+  <data name="HalconDrawError" xml:space="preserve">
+    <value>An  error occurred when  tried to draw geometry (Action Not Finish)</value>
+  </data>
+  <data name="HideSlit" xml:space="preserve">
+    <value>Hide Slit</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="LoadDefectFile" xml:space="preserve">
+    <value>Load DefectFile</value>
+  </data>
+  <data name="LoadFileFirst" xml:space="preserve">
+    <value>Pleas Load Defect.csv First</value>
+  </data>
+  <data name="LoginUser" xml:space="preserve">
+    <value>Login User</value>
+  </data>
+  <data name="MachineCoordMove" xml:space="preserve">
+    <value>Machine Coord Move</value>
+  </data>
+  <data name="MaintainMode" xml:space="preserve">
+    <value>MaintainMode</value>
+  </data>
+  <data name="MaintainModeComplete" xml:space="preserve">
+    <value>MaintainModeComplete</value>
+  </data>
+  <data name="MarkSearch" xml:space="preserve">
+    <value>Mark Search </value>
+  </data>
+  <data name="MarkSearchCompleted" xml:space="preserve">
+    <value>Mark Search Completed</value>
+  </data>
+  <data name="MarkSearchFailed" xml:space="preserve">
+    <value>Mark Search Failed</value>
+  </data>
+  <data name="MaskRepairHint" xml:space="preserve">
+    <value>Mask Repair Hint</value>
+  </data>
+  <data name="Micro" xml:space="preserve">
+    <value>Micro</value>
+  </data>
+  <data name="Mid" xml:space="preserve">
+    <value>Mid</value>
+  </data>
+  <data name="ModulesControlIsBusy" xml:space="preserve">
+    <value>Modules Control Task Is Busy</value>
+  </data>
+  <data name="ModulesNotInitilized" xml:space="preserve">
+    <value>Modules is not Initilize</value>
+  </data>
+  <data name="NextMove" xml:space="preserve">
+    <value>NextMove</value>
+  </data>
+  <data name="NoDataFound" xml:space="preserve">
+    <value>No Data Found</value>
+  </data>
+  <data name="NotPowerOn" xml:space="preserve">
+    <value>Not Power On</value>
+  </data>
+  <data name="ObjectiveError" xml:space="preserve">
+    <value>ObjectiveError (Please Use the 20x or 50x)</value>
+  </data>
+  <data name="OpenImageDirectory" xml:space="preserve">
+    <value>Open Image Directory</value>
+  </data>
+  <data name="OperateMode" xml:space="preserve">
+    <value>OperateMode</value>
+  </data>
+  <data name="OperateModeCompleteMaskInAlready" xml:space="preserve">
+    <value>OperateModeCompleteMaskInAlready</value>
+  </data>
+  <data name="OperateModeCompleteWaitMaskIn" xml:space="preserve">
+    <value>OperateModeCompleteWaitMaskIn</value>
+  </data>
+  <data name="PleaseAllHomeFirst" xml:space="preserve">
+    <value>Please excute All Home First</value>
+  </data>
+  <data name="PleaseExcuteMarkSearchFirst" xml:space="preserve">
+    <value>Mark Search Is Not Complete, Please Exctue Mark Search First.</value>
+  </data>
+  <data name="PleaseMarkSearchFirst" xml:space="preserve">
+    <value>Please excute MarkSearch First</value>
+  </data>
+  <data name="PreviousMove" xml:space="preserve">
+    <value>Previous Move</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="SaveCurrentImageTo" xml:space="preserve">
+    <value>SaveCurrentImageTo</value>
+  </data>
+  <data name="SetAllLensSamePointCompleted" xml:space="preserve">
+    <value>SetAllLensSamePointCompleted</value>
+  </data>
+  <data name="SettingLaserRecipeList" xml:space="preserve">
+    <value>SettingLaserRecipeList</value>
+  </data>
+  <data name="ShotNum" xml:space="preserve">
+    <value>ShotNum</value>
+  </data>
+  <data name="Slit" xml:space="preserve">
+    <value>Slit</value>
+  </data>
+  <data name="SwitchSpeed" xml:space="preserve">
+    <value>SwitchSpeed</value>
+  </data>
+  <data name="SystemHint" xml:space="preserve">
+    <value>System Hint</value>
+  </data>
+  <data name="TerminalProgram" xml:space="preserve">
+    <value>Terminal Program</value>
+  </data>
+  <data name="TextFileFormatWrong" xml:space="preserve">
+    <value>The text file format is wrong</value>
+  </data>
+  <data name="ThereIsNoMaskInStageArea" xml:space="preserve">
+    <value>There Is No Mask In Stage Area</value>
+  </data>
+  <data name="txtAccount" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="UserLogin" xml:space="preserve">
+    <value>User Login</value>
+  </data>
+  <data name="UserLogout" xml:space="preserve">
+    <value>User Logout</value>
+  </data>
+  <data name="MaintainModeFailed" xml:space="preserve">
+    <value>Maintain Mode Failed</value>
+  </data>
+  <data name="CheckBackLightReady" xml:space="preserve">
+    <value>Please check backlight ready</value>
+  </data>
+  <data name="CheckSafeLightGate" xml:space="preserve">
+    <value>Please check safe light gate status</value>
+  </data>
+  <data name="MicroscopeHint" xml:space="preserve">
+    <value>Microscope Hint</value>
+  </data>
+  <data name="CheckRobotRun" xml:space="preserve">
+    <value>Please check robot online</value>
+  </data>
+  <data name="ConfirmPanelOutBuffer" xml:space="preserve">
+    <value>Confirm Panel Out Buffer</value>
+  </data>
+  <data name="ConfirmPanelOutBufferBack" xml:space="preserve">
+    <value>Confirm Panel Out Buffer Back</value>
+  </data>
+  <data name="ConfirmPanelOutNG" xml:space="preserve">
+    <value>Confirm Panel Out NG</value>
+  </data>
+  <data name="ConfirmPanelOutOK" xml:space="preserve">
+    <value>Confirm Panel Out OK</value>
+  </data>
+  <data name="ConfirmPanelOutRotate" xml:space="preserve">
+    <value>Confirm Panel Out Rotate</value>
+  </data>
+  <data name="ApplicationFinish" xml:space="preserve">
+    <value>Confirm Finish?</value>
+  </data>
+  <data name="AssemblyIsNull" xml:space="preserve">
+    <value>Namespace Error</value>
+  </data>
+  <data name="CommandBusy" xml:space="preserve">
+    <value>Command Busy</value>
+  </data>
+  <data name="CommandError" xml:space="preserve">
+    <value>Command Error</value>
+  </data>
+  <data name="ComportBusy" xml:space="preserve">
+    <value>Comport  is busy</value>
+  </data>
+  <data name="ComportIsWriting" xml:space="preserve">
+    <value>Comport is writing</value>
+  </data>
+  <data name="ConfirmModifyParameters" xml:space="preserve">
+    <value>Modify Parameters?</value>
+  </data>
+  <data name="DefaultParameter" xml:space="preserve">
+    <value>The axis parameter is default.</value>
+  </data>
+  <data name="DeviceNotEnable" xml:space="preserve">
+    <value>Device Not Enable</value>
+  </data>
+  <data name="DeviceTableError" xml:space="preserve">
+    <value>An syntek  error occurred when tried to get device table</value>
+  </data>
+  <data name="DidntFindA104DAC" xml:space="preserve">
+    <value>Didn't find the module A104DAC</value>
+  </data>
+  <data name="DidntFindA180ADC" xml:space="preserve">
+    <value>Didn't find the A180 ADC</value>
+  </data>
+  <data name="DidntFindL122" xml:space="preserve">
+    <value>Didn't find the PCI L122</value>
+  </data>
+  <data name="DidntFindL132" xml:space="preserve">
+    <value>Didn't find the PCI L132</value>
+  </data>
+  <data name="DidntFindM1X1" xml:space="preserve">
+    <value>Didn't Find the module M1X1</value>
+  </data>
+  <data name="DidntFindM314" xml:space="preserve">
+    <value>Didn't find the PCI M314</value>
+  </data>
+  <data name="ErrorOccurInstanceMissing" xml:space="preserve">
+    <value>Error Occur : InputObject (instance) is Missing</value>
+  </data>
+  <data name="GetRingNoFailure" xml:space="preserve">
+    <value>An syntek  error occurred when tried to get RingNo</value>
+  </data>
+  <data name="InitializeErrorA104DAC" xml:space="preserve">
+    <value>An Sytek error occurred when  tried to initilize A104DAC</value>
+  </data>
+  <data name="InitializeErrorA180ADC" xml:space="preserve">
+    <value>An Sytek error occurred when  tried to initilize A180ADC</value>
+  </data>
+  <data name="InitializeErrorL132" xml:space="preserve">
+    <value>An syntek  error occurred when tried to initialize PCI L132</value>
+  </data>
+  <data name="InitializeErrorM1X1" xml:space="preserve">
+    <value>An syntek  error occurred when tried to initialize M1X1 module</value>
+  </data>
+  <data name="InitializeErrorM314" xml:space="preserve">
+    <value>An syntek  error occurred when tried to initialize PCI M314</value>
+  </data>
+  <data name="PointConvertError" xml:space="preserve">
+    <value>ToPoint() Convert Error</value>
+  </data>
+  <data name="RingConfigError" xml:space="preserve">
+    <value>An syntek error occurred when tried to set ring config</value>
+  </data>
+  <data name="SetCycleErrorA180ADC" xml:space="preserve">
+    <value>An Sytek error occurred when  tried to set cycle time of A180ADC</value>
+  </data>
+  <data name="StartCommError" xml:space="preserve">
+    <value>An syntek error occurred when startup ring communication</value>
+  </data>
+  <data name="StartupErrorL132" xml:space="preserve">
+    <value>An syntek error occurred when startup ring PCI L132</value>
+  </data>
+  <data name="TimeoutEnterORG" xml:space="preserve">
+    <value>Timeout Enter ORG</value>
+  </data>
+  <data name="TimeoutOutOfLimitN" xml:space="preserve">
+    <value>Timeout Out Of LimitN</value>
+  </data>
+  <data name="TimeoutOutOfORG" xml:space="preserve">
+    <value>Timeout Out Of ORG</value>
+  </data>
+  <data name="WrongClassName" xml:space="preserve">
+    <value>ClassName Error</value>
+  </data>
+  <data name="WrongCommand" xml:space="preserve">
+    <value>Wrong Command</value>
+  </data>
+  <data name="WrongDeviceTypeA104DAC" xml:space="preserve">
+    <value>This isn't a A104DAC module</value>
+  </data>
+  <data name="WrongDeviceTypeA180ADC" xml:space="preserve">
+    <value>This isn't a A180 ADC module</value>
+  </data>
+  <data name="WrongDeviceTypeM1X1" xml:space="preserve">
+    <value>This isn't a M1X1 module</value>
+  </data>
+  <data name="WrongFilePath" xml:space="preserve">
+    <value>Wrong File Path</value>
+  </data>
+  <data name="WrongRingNo" xml:space="preserve">
+    <value>Wrong RingNo</value>
+  </data>
+  <data name="WrongSlaveIP" xml:space="preserve">
+    <value>Wrong SlaveIP</value>
+  </data>
+  <data name="Teach" xml:space="preserve">
+    <value>Teach</value>
+    <comment>Button Label</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+    <comment>Button Label</comment>
+  </data>
+  <data name="SafeDoorStationAoiDoor" xml:space="preserve">
+    <value>AOI Door</value>
+  </data>
+  <data name="SafeDoorStationAoiWindow" xml:space="preserve">
+    <value>AOI Window</value>
+  </data>
+  <data name="SafeDoorStationBin" xml:space="preserve">
+    <value>Bin</value>
+  </data>
+  <data name="SafeDoorStationLoader" xml:space="preserve">
+    <value>Loader</value>
+  </data>
+  <data name="SafeDoorStationUnloader" xml:space="preserve">
+    <value>Unloader</value>
+  </data>
+  <data name="ChangeRecipeMsg1" xml:space="preserve">
+    <value>Are you sure you want to change the recipe file </value>
+    <comment>Recipe Operation</comment>
+  </data>
+  <data name="ChangeRecipeMsg2" xml:space="preserve">
+    <value>to default recipe file ?</value>
+    <comment>Recipe Operation</comment>
+  </data>
+  <data name="DeleteRecipeMsg" xml:space="preserve">
+    <value>The action can't be completed because the recipe is in used.</value>
+  </data>
+  <data name="DeleteRecipeMsg1" xml:space="preserve">
+    <value>Are you sure you want to delete the selected recipe </value>
+  </data>
+  <data name="ExistRecipeMsg1" xml:space="preserve">
+    <value>The folder already contains the same Recipe ID named</value>
+  </data>
+  <data name="ExistRecipeMsg2" xml:space="preserve">
+    <value>The folder already contains the same Recipe NO named</value>
+  </data>
+  <data name="NoRecipeIdMsg" xml:space="preserve">
+    <value>Could not find the recipe ID named</value>
+  </data>
+  <data name="NoRecipeNoMsg" xml:space="preserve">
+    <value>Could not find the recipe NO named</value>
+  </data>
+  <data name="SelectRecipeMsg" xml:space="preserve">
+    <value>The file isn't selected.</value>
+    <comment>Recipe Operation</comment>
+  </data>
+  <data name="AccountbtnAdd" xml:space="preserve">
+    <value>ADD</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountbtnDelete" xml:space="preserve">
+    <value>DELETE</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountbtnExit" xml:space="preserve">
+    <value>EXIT</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountbtnModify" xml:space="preserve">
+    <value>MODIFY</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountbtnOK" xml:space="preserve">
+    <value>SAVE</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountEmptyMsg" xml:space="preserve">
+    <value>The account or password can not contain empty data.</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountExistMsg" xml:space="preserve">
+    <value>The account already exists.</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountFormTitle" xml:space="preserve">
+    <value>Account Edit Form</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountgrpAccountEdit" xml:space="preserve">
+    <value>User</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountlblAccount" xml:space="preserve">
+    <value>Account</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountlblAccountLevel" xml:space="preserve">
+    <value>Level</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountlblPassword" xml:space="preserve">
+    <value>Password</value>
+    <comment>Account</comment>
+  </data>
+  <data name="AccountNoExistMsg" xml:space="preserve">
+    <value>The account does not exist</value>
+    <comment>Account</comment>
+  </data>
+  <data name="MessageBoxAbort" xml:space="preserve">
+    <value>&amp;Abort</value>
+    <comment>MessageBox Abort</comment>
+  </data>
+  <data name="MessageBoxCancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+    <comment>MessageBox Cancel</comment>
+  </data>
+  <data name="MessageBoxIgnore" xml:space="preserve">
+    <value>&amp;Ignore</value>
+    <comment>MessageBox Ignore</comment>
+  </data>
+  <data name="MessageBoxNo" xml:space="preserve">
+    <value>&amp;No</value>
+    <comment>MessageBox No</comment>
+  </data>
+  <data name="MessageBoxOK" xml:space="preserve">
+    <value>&amp;OK</value>
+    <comment>MessageBox OK</comment>
+  </data>
+  <data name="MessageBoxRetry" xml:space="preserve">
+    <value>&amp;Retry</value>
+    <comment>MessageBox Retry</comment>
+  </data>
+  <data name="MessageBoxYes" xml:space="preserve">
+    <value>&amp;Yes</value>
+    <comment>MessageBox Yes</comment>
+  </data>
+  <data name="NoUser" xml:space="preserve">
+    <value>No User</value>
+    <comment>Account</comment>
+  </data>
+  <data name="ChagneRecipeRepeatMsg" xml:space="preserve">
+    <value>Do not change Recipe repeatedly in a short time, please wait and try again.</value>
+    <comment>Recipe Operation</comment>
+  </data>
+</root>
